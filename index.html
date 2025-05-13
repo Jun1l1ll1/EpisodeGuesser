@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center">
+        <div>
+            <input type="checkbox" class="series_chbx" id="test_chbx" value="test" checked />
+            <label for="test_chbx">Test</label>
+            <input type="checkbox" class="series_chbx" id="arcane_chbx" value="arcane" />
+            <label for="arcane_chbx">Arcane</label>
+
+            <button onclick="setup()">Start</button>
+        </div>
+
+        <video id="video" width="80%">
+            <source id="vid_source" src="" type="video/mp4" />
+        </video>
+
+        <div>
+            <div>
+                <input type="number" />
+                <input type="number" />
+            </div>
+            <input type="range" />
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
