@@ -1,1 +1,2 @@
-/videos/arcane
+/videos/*
+!/videos/test
